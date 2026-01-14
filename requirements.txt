@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers>=4.37.0
+peft>=0.8.0
+accelerate>=0.25.0
+datasets>=2.16.0
+bitsandbytes>=0.42.0
+pandas
+pillow
+scikit-learn
+matplotlib
+numpy
+nltk
+tqdm
+sentence-transformers>=2.2.0
