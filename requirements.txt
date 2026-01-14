@@ -1,15 +1,31 @@
-torch
-torchvision
+# Core ML Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Transformers & PEFT (for VLM models)
 transformers>=4.37.0
 peft>=0.8.0
 accelerate>=0.25.0
-datasets>=2.16.0
 bitsandbytes>=0.42.0
+
+# Dataset & Data Processing
+datasets>=2.16.0
 pandas
 pillow
+
+# Scikit-learn (data splitting, metrics)
 scikit-learn
+
+# Visualization
 matplotlib
-numpy
+opencv-python
+
+# NLP Utilities
 nltk
-tqdm
+numpy
+
+# Semantic Evaluation (BioBERT)
 sentence-transformers>=2.2.0
+
+# Progress Bars
+tqdm
